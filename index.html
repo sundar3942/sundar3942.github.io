@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="page">
+        <div id="left-section" class="left-section">
+
+        </div>
+        <div id="right-section" class="right-section">
+            <label for="text-input">Text to enter:</label>
+            <input type="text" id="text-input"><br><br>
+            <label for="font-family-select">Select Font Family:</label>
+            <select id="font-family-select">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            </select><br><br>
+
+            <label for="font-size-select">Select Font Size:</label>
+            <select id="font-size-select">
+            <option value="12">12px</option>
+            <option value="16">16px</option>
+            <option value="20">20px</option>
+            <option value="25" selected>25px</option>
+            <option value="30">30px</option>
+            <option value="35">35px</option>
+            <option value="40">40px</option>
+
+            </select><br><br>
+            <label for="font-weight">Font Weight:</label>
+            <input type="text" id="font-weight"><br><br>
+            <label for="text-align">Select Text Align:</label>
+            <select id="text-align">
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">right</option>
+
+            </select><br><br>
+
+            <label for="font-color-input">Select Font Color:</label>
+            <input type="color" id="font-color-input"><br><br>
+
+            <button class="custom-btn" onclick="addText()">Add Text</button>
+                </div>
+            </div>
+            <script src="./index.js"></script>
+</body>
+</html>
